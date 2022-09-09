@@ -3,18 +3,26 @@ package binaryTree;
 public class PrimeNumber {
 	public static void main(String[] primeNumber) {
 		
-		for( int i=1;i<=40;i++)
+		int num = 53;
+		int temp = 0;
+		
+		for( int i=2;i<=num-1;i++)
 		{
-			int num = 23;
-			int count = 0;
-			if( num%i==0 && num%num==0) {
-				count++;
-				if(count==2) {
-					System.out.println(num+"  :  Yes it is Prime num");
+			if( num%i == 0 ) 
+			{
+				temp += 1;
+			}
+			if ( temp >0 )
+			{
+					System.out.println(num + "  :  Not a prime number");
+					break;
+					
 				}else {
-					System.out.println(num+ "  :  Not a prime number");
+					
+					System.out.println(num+ "  : Yes it is Prime num");
+					break;
 				}
 			}
 		}
 	}
-}
+
