@@ -5,7 +5,7 @@ public class FindOddEven {
 			
 			for( int i=1;i<=40;i++)
 			{
-				if( i%2 !=1)
+				if( i%2 == 1)
 				{
 					System.out.println("Even numbers are: " + "    "+ i);
 				}
