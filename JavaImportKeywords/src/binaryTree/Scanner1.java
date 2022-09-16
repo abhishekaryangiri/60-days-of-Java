@@ -9,14 +9,14 @@ public class Scanner1 {
 		int a  = sc.nextInt();
 		int b = sc.nextInt();
 
-		System.out.println("Before swap  " + a + " ," + b);
+		System.out.println("Before swap the number was --->  " + a + " ,   " + b);
 
 		
 		a = a+b;
 		b = a-b;
 		a = a-b;
 		
-	System.out.println("After swapping  " + a + " ," + b);
+	System.out.println("After swapping the number is --->  " + a + " ,   " + b);
 
 	}
 

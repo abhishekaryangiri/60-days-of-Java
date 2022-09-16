@@ -17,12 +17,12 @@ public class Swap1 {
 		
 		a=15;
 		b=27;
-		System.out.println("before swapping  a,  b ->  " + a+ "  " + b);
+		System.out.println("before swapping  the value of  a &  b  were --->    " + a+ "  " + b);
 		
 		temp = a;
 		a=b;
 		b=temp;
-		System.out.println("after swapping   a,  b ->  " +a+ "  " +b );
+		System.out.println("after swapping  the value of  a, & b  are --->   " +a+ "  " +b );
 	}
 
 }
